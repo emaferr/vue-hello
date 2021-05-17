@@ -8,15 +8,14 @@ let app = new Vue(
 
         data : {
 
-            nomeUtente : "emanuele", //prompt("Inserisci il tuo nome"), 
+            nomeUtente : prompt("Inserisci il tuo nome"), 
             benvenuto : "benvenuto sullo Shop!",
+
+            // Bonus: Aggiungere alla pagina un’immagine, presa anch’essa da un data.
+            immagineBenvenuto: "./deadpool.jpeg"
 
         },
 
     },
 
-    
-   
 )
-
-// Bonus: Aggiungere alla pagina un’immagine, presa anch’essa da un data.
